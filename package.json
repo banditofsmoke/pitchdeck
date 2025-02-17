@@ -1,5 +1,5 @@
 {
-  "name": "my-v0-project",
+  "name": "my-v0-project-pitchdeckgpu",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,6 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "overrides": {
+    "date-fns": "^3.3.1"
+  },
+  "resolutions": {
+    "date-fns": "^3.3.1"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
